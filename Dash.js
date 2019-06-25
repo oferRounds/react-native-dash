@@ -23,6 +23,7 @@ const Dash = (props) => {
 				style={ [
 					calculatedDashStyles,
 					props.dashStyle,
+					{ backgroundColor: props.dashColor }
 				] }
 			/>
 		)
